@@ -1,0 +1,82 @@
+<application>
+  <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="LiveEditOptions" updatePolicy="AUTO" />
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="JLU_TODO">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\[JL_EJB\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\[JORGEN\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\[JL_RMI\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\[CHANGED\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="TODO_A_PMN">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\[FAULT ID\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\[NOT IN USE\]">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <filter name="JL_EJB">
+      <pattern index="1" />
+    </filter>
+    <filter name="JLU_TODO">
+      <pattern index="0" />
+    </filter>
+    <filter name="JORGEN">
+      <pattern index="2" />
+    </filter>
+    <filter name="TODO">
+      <pattern index="3" />
+    </filter>
+    <filter name="JL_RMI">
+      <pattern index="4" />
+    </filter>
+    <filter name="CHANGED">
+      <pattern index="5" />
+    </filter>
+    <filter name="TODO_A_PMN">
+      <pattern index="6" />
+      <pattern index="2" />
+    </filter>
+    <filter name="FAULT ID">
+      <pattern index="7" />
+    </filter>
+    <filter name="NOT IN USE">
+      <pattern index="8" />
+    </filter>
+  </component>
+</application>

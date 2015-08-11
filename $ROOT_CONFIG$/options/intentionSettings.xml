@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Access static via class reference" />
+    <ignoreAction name="Implement Abstract Class or Interface" />
+    <ignoreAction name="XML/Merge Tags" />
+    <ignoreAction name="Inject Language" />
+  </component>
+</application>
+

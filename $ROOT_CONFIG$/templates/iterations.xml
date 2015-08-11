@@ -1,0 +1,41 @@
+<templateSet group="iterations">
+  <template name="ital" value="for (int $INDEX$ = 0; $INDEX$ &lt; $ARRAY_LIST$.size(); $INDEX$++) {&#10;  $ELEMENT_TYPE$ $VAR$ = ($ELEMENT_TYPE$)$ARRAY_LIST$.get($INDEX$);&#10;  $END$&#10;}" description="Iterate elements of java.util.ArrayList" toReformat="true" toShortenFQNames="false">
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY_LIST" expression="variableOfType(&quot;java.util.ArrayList&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELEMENT_TYPE" expression="guessElementType(ARRAY_LIST)" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

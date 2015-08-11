@@ -1,0 +1,46 @@
+<application>
+  <component name="FileTypeManager" version="15">
+    <ignoreFiles list="*.contrib;*.contrib.*;*.hprof;*.keep;*.keep.*;*.pyc;*.pyo;*.rbc;*.updt;*~;.DS_Store;.IJI.*;.cvsignore;.dependency-info;.git;.hg;.sbas;.scc;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;findmerge.log.*;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="formfieldrow" type="PLAIN_TEXT" />
+      <mapping pattern="placeholder" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="20060530011132" type="PLAIN_TEXT" />
+      <mapping ext="tdf" type="PLAIN_TEXT" />
+      <mapping ext="infx" type="PLAIN_TEXT" />
+      <mapping ext="tab" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="idf" type="PLAIN_TEXT" />
+      <mapping ext="20060530011425" type="PLAIN_TEXT" />
+      <mapping ext="jvi" type="PLAIN_TEXT" />
+      <mapping ext="measure" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="db2" type="PLAIN_TEXT" />
+      <mapping ext="scala_" type="PLAIN_TEXT" />
+      <mapping ext="org" type="PLAIN_TEXT" />
+      <mapping ext="keep" type="PLAIN_TEXT" />
+      <mapping ext="20060529222700" type="PLAIN_TEXT" />
+      <mapping ext="xdf" type="PLAIN_TEXT" />
+      <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping ext="ved" type="PLAIN_TEXT" />
+      <mapping ext="vdf" type="PLAIN_TEXT" />
+      <mapping ext="all" type="PLAIN_TEXT" />
+      <mapping ext="20060530011323" type="PLAIN_TEXT" />
+      <mapping ext="ldf" type="PLAIN_TEXT" />
+      <mapping ext="spo" type="PLAIN_TEXT" />
+      <mapping ext="rename" type="PLAIN_TEXT" />
+      <mapping ext="pde" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="inc" type="PLAIN_TEXT" />
+      <mapping ext="sv" type="Properties" />
+      <mapping ext="properties_" type="Properties" />
+      <mapping ext="script" type="XML" />
+      <mapping ext="jwc" type="XML" />
+      <mapping ext="xmi" type="XML" />
+      <mapping ext="page" type="XML" />
+      <mapping ext="application" type="XML" />
+      <mapping ext="jmx" type="XML" />
+    </extensionMap>
+  </component>
+</application>

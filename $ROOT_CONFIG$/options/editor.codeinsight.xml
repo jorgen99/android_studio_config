@@ -1,0 +1,17 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
+    <EXCLUDED_PACKAGE NAME="java.util.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="junit.framework" />
+    <EXCLUDED_PACKAGE NAME="org.eclipse.jdt.internal.compiler.batch.Main.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.hibernate.bytecode.buildtime.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.safehaus.uuid.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.slf4j.Logger" />
+    <EXCLUDED_PACKAGE NAME="se.extenda.exbo.util.logging" />
+    <EXCLUDED_PACKAGE NAME="se.extenda.util.logging.Logger" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
+  </component>
+</application>

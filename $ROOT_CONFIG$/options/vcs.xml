@@ -1,0 +1,20 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://x1jorlun@s008aa36r.staden.gotheborg.net:7990/scm/goteborg_se_internaverktyg/sidadministration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://x1jorlun@s008aa36r.staden.gotheborg.net:7990/scm/eplattform/eplattform.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/slabb" />
+  </component>
+  <component name="HgGlobalSettings">
+    <option name="myHgExecutable" value="hg" />
+  </component>
+</application>

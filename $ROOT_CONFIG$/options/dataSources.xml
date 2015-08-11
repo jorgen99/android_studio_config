@@ -1,0 +1,11 @@
+<application>
+  <component name="dataSourceStorage" format="xml">
+    <data-source source="LOCAL" name="PostgreSQL - stash_service@localhost" uuid="e22d045a-768c-4d62-934d-ffbb0bc11739">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/stash_service</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</application>
