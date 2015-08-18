@@ -295,6 +295,9 @@
         <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
+    <option name="VELOCITY_SCRIPTING_BACKGROUND">
+      <value />
+    </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ffe4ff" />
