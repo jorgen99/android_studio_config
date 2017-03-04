@@ -1,0 +1,31 @@
+<templateSet group="log">
+  <template name="debug" value="if (Logger.isDebugEnabled()) {&#10;  Logger.debug(&quot;$END$&quot;);&#10;}" description="Traces debug message" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="enter" value="logger.debug(&quot;enter: $FUNCTION$()&quot;);" description="Trace method enter" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="exit" value="logger.debug(&quot;exit: $FUNCTION$()&quot;);" description="Trace method exit" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="enti" value="logger.info(&quot;enter: $FUNCTION$()&quot;);" description="Trace method enter" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="exiti" value="logger.info(&quot;exit: $FUNCTION$()&quot;);" description="Trace method exit" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

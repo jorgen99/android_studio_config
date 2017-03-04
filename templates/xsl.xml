@@ -1,0 +1,13 @@
+<templateSet group="xsl">
+  <template name="it" value="&lt;xsl:if test=&quot;$TEST$&quot;&gt;&#10;    $END$&#10;&lt;/xsl:if&gt;" description="If-Test." toReformat="false" toShortenFQNames="true">
+    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="o" value="&lt;xsl:otherwise&gt;&#10;    $END$&#10;&lt;/xsl:otherwise&gt;" description="Otherwise." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

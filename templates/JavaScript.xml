@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="logd" value="console.log(&quot;$EXPR_COPY$ = '&quot; + $EXPR$ + &quot;'&quot;);" description="Prints a value to console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="log" value="console.log('$END$');" description="console.log" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

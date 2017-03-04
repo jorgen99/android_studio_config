@@ -1,0 +1,11 @@
+<templateSet group="iterations">
+  <template name="ital" value="for (int $INDEX$ = 0; $INDEX$ &lt; $ARRAY_LIST$.size(); $INDEX$++) {&#10;  $ELEMENT_TYPE$ $VAR$ = ($ELEMENT_TYPE$)$ARRAY_LIST$.get($INDEX$);&#10;  $END$&#10;}" description="Iterate elements of java.util.ArrayList" toReformat="true" toShortenFQNames="false">
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY_LIST" expression="variableOfType(&quot;java.util.ArrayList&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELEMENT_TYPE" expression="guessElementType(ARRAY_LIST)" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

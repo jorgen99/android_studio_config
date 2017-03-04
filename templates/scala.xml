@@ -1,0 +1,13 @@
+<templateSet group="scala">
+  <template name="fix" value="// FIXME: $END$&#10;" description="FIXME comment" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="pr" value="println($NAME$) $END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="pv" value="println(&quot;$NAME$: &quot; + $NAME$) $END$" description="println variabl" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

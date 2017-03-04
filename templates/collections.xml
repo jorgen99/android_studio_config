@@ -1,0 +1,32 @@
+<templateSet group="collections">
+  <template name="ArrayList" value="new java.util.ArrayList()" description="new java.util.ArrayList()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="HashMap" value="new java.util.HashMap()" description="new java.util.HashMap()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="HashSet" value="new java.util.HashSet()" description="new java.util.HashSet()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="LinkedList" value="new java.util.LinkedList()" description="new java.util.LinkedList()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="TreeMap" value="new java.util.TreeMap()" description="new java.util.TreeMap()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="TreeSet" value="new java.util.TreeSet()" description="new java.util.TreeSet()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>
