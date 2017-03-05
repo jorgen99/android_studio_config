@@ -4,11 +4,6 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
     </context>
   </template>
 </templateSet>
