@@ -1,0 +1,10 @@
+<templateSet group="test">
+  <template name="test" value="@Test&#10;public void $methodName$() throws Exception {&#10;   $END$&#10;}" description="JUnit test" toReformat="false" toShortenFQNames="true">
+    <variable name="methodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
