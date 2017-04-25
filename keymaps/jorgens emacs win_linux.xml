@@ -44,6 +44,9 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
