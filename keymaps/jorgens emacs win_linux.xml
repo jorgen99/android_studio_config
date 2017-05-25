@@ -44,7 +44,6 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
-  <action id="ActivateVersionControlToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
@@ -83,7 +82,6 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl quote" />
-    <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="Compile" />
   <action id="Console.TableResult.ColumnSortAsc" />
