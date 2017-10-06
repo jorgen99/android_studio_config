@@ -222,8 +222,8 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="alt plus" />
+    <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="Git.MergeTool">
     <keyboard-shortcut first-keystroke="shift meta m" />
