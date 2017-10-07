@@ -1,0 +1,8 @@
+<templateSet group="test">
+  <template name="test" value="@Test&#10;public void $METHOD_NAME$() throws Exception {&#10;  $END$&#10;}" description="Decalare JUnit test" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
