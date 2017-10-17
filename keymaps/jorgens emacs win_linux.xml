@@ -282,10 +282,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt n" />
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
-  <action id="InsertLiveTemplate">
-    <keyboard-shortcut first-keystroke="ctrl j" />
-    <keyboard-shortcut first-keystroke="meta j" />
-  </action>
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
@@ -370,6 +366,10 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="meta f1" />
     <keyboard-shortcut first-keystroke="shift ctrl f1" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
